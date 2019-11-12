@@ -9,5 +9,7 @@ public interface TrackDAL {
 	void create(Track t);
 	
 	List<Track> findAll();
+	
+	void delete(String trackName);
 	 
 }
